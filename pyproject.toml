@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "proyecto_grupo4/api_vulnerabilidades:app"
