@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "proyecto_grupo4/api_vulnerabilidades.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "proyecto_grupo4/api_vulnerabilidades.py"
+      "dest": "api/index.py"
     }
   ]
 }
